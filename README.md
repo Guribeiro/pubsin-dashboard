@@ -2,7 +2,7 @@
     <img src='./github/logo.png' height='200'>
 </h1>
 <h2 align="center">
-  ReactJS Application for **Pubs In** dashboard
+  ReactJS Application for Pubs In Admin-dashboard
 </h2>
 <h3 align="center">
     🚧 Work in Progress 🚧
