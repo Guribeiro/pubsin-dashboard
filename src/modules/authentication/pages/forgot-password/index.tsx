@@ -4,11 +4,11 @@ import { useHistory } from 'react-router-dom';
 import { FiMail, FiArrowLeft } from 'react-icons/fi';
 import { FormHandles } from '@unform/core';
 
-import getValidationErrors from '../../../../utils/getValidationErrors';
-import Input from '../../components/Input';
-import Button from '../../components/Button';
+import getValidationErrors from '@/utils/getValidationErrors';
+import Input from '@/modules/authentication/components/Input';
+import Button from '@/shared/Button';
 
-import LogoImage from '../../../../assets/logo-signin.png';
+import LogoImage from '@/assets/logo-signin.png';
 import { Container, Content, FormSignIn } from './styles';
 
 interface SignInFormData {

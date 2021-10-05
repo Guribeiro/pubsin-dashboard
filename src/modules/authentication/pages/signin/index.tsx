@@ -4,12 +4,14 @@ import { Link, useHistory } from 'react-router-dom';
 import { FiMail, FiLock, FiArrowLeft } from 'react-icons/fi';
 import { FormHandles } from '@unform/core';
 
-import getValidationErrors from '../../../../utils/getValidationErrors';
-import InputPassword from '../../components/InputPassword';
-import Button from '../../components/Button';
-import Input from '../../components/Input';
+import Button from '@/shared/Button';
 
-import LogoImage from '../../../../assets/logo-signin.png';
+import Input from '@/modules/authentication/components/Input';
+// import Button from '@/modules/authentication/components/Button';
+import InputPassword from '@/modules/authentication/components/InputPassword';
+import getValidationErrors from '@/utils/getValidationErrors';
+
+import LogoImage from '@/assets/logo-signin.png';
 import { Container, Content, FormSignIn } from './styles';
 
 interface SignInFormData {
@@ -68,8 +70,20 @@ const SignIn = (): JSX.Element => {
         <img src={LogoImage} alt="pubs in logo" />
         <FormSignIn ref={formRef} onSubmit={handleSubmit}>
           <h3>Faça seu login</h3>
-          <Input name="email" icon={FiMail} placeholder="E-mail" />
-          <InputPassword name="password" icon={FiLock} placeholder="Senha" />
+          <Input
+            required
+            pattern="\S+"
+            title="texto dentro do atributo title"
+            name="email"
+            icon={FiMail}
+            placeholder="E-mail"
+          />
+          <InputPassword
+            required
+            name="password"
+            icon={FiLock}
+            placeholder="Senha"
+          />
           <Button type="submit">Entrar</Button>
         </FormSignIn>
         <Link to="/forgot-password">Esqueci minha senha</Link>

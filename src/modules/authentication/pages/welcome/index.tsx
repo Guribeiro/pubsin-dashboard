@@ -1,12 +1,12 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import Banner from '../../components/Banner';
-import Header from '../../components/Header';
+import Banner from '@/modules/authentication/components/Banner';
+import Header from '@/modules/authentication/components/Header';
 
-import CelebrationBackgroundImage from '../../../../assets/celebration.png';
-import HalloweenBackgroundImage from '../../../../assets/halloween.png';
-import ContentBackgroundImage from '../../../../assets/content.png';
+import CelebrationBackgroundImage from '@/assets/celebration.png';
+import HalloweenBackgroundImage from '@/assets/halloween.png';
+import ContentBackgroundImage from '@/assets/content.png';
 
 export const Container = styled.main`
   background: ${({ theme }) => theme.colors.primary};
