@@ -4,6 +4,7 @@ export const theme = {
   colors: {
     primary_black: '#151417',
     secundary_black: '#1B1B1D',
+    yellow: '#ffa027',
     title: '#14375E',
     text: '#001C3C',
     placeholder: '#285383',

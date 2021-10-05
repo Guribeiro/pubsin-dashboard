@@ -14,6 +14,14 @@ declare module 'styled-components' {
     colors: {
       primary: string;
       secundary: string;
+      text: string;
+    };
+    button: {
+      default: string;
+      blue: string;
+      red: string;
+      green: string;
+      dark: string;
     };
   }
 }
