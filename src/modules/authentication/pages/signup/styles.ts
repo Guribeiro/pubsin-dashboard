@@ -30,6 +30,10 @@ export const FormSignIn = styled(Form)`
     margin-bottom: 2rem;
     font-weight: 700;
   }
+
+  > section {
+    margin-bottom: 16px;
+  }
 `;
 
 export const Content = styled.section`
