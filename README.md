@@ -1,46 +1,74 @@
-# pubs-in
+<h1 align="center">
+    <img src='./github/logo.png' height='200'>
+</h1>
+<h2 align="center">
+  ReactJS Application for **Pubs In** dashboard
+</h2>
+<h3 align="center">
+    🚧 Work in Progress 🚧
+</h3>
 
-## Table of Contents
+<p align="center">
+  <a href="#%EF%B8%8F-about-the-project">About the project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-getting-started">Getting started</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-license">License</a>
+</p>
 
-- [About](#about)
-- [Getting Started](#getting_started)
-- [Usage](#usage)
-- [Contributing](../CONTRIBUTING.md)
+## 🎯 About <a name = "about"></a>
 
-## About <a name = "about"></a>
+As soon as possible I will put informations about the project
 
-Write about 1-2 paragraphs describing the purpose of your project.
+## [🌌 See the project prototype made on figma](https://www.figma.com/file/aS7BPFVnaqvqkEo5xZ7ueW/pubsin-dashboard?node-id=0%3A1)
 
-## Getting Started <a name = "getting_started"></a>
+## 🚀 Technologies
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
+Technologies that I used to develop this web client
 
-### Prerequisites
+- [ReactJS](https://reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [React Router DOM](https://reacttraining.com/react-router/)
+- [React Icons](https://react-icons.netlify.com/#/)
+- [React Input Mask](https://github.com/sanniassin/react-input-mask)
+- [Yup](https://github.com/jquense/yup)
+- [Unform](https://unform.dev/)
+- [Yup](https://github.com/jquense/yup)
+- [Styled Components](https://styled-components.com/)
+- [Polished](https://github.com/styled-components/polished)
+- [Axios](https://github.com/axios/axios)
+- [Eslint](https://eslint.org/)
+- [Prettier](https://prettier.io/)
+- [EditorConfig](https://editorconfig.org/)
 
-What things you need to install the software and how to install them.
 
-```
-Give examples
-```
+## 💻 Getting Started <a name = "getting_started"></a>
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running.
+Clone the repository and access the project directory
 
-Say what the step will be
-
+```bash
+git@github.com:Guribeiro/pubsin-dashboard.git && cd pubsin-dashboard
 ```
-Give the example
+Install all dependencies
+```bash
+yarn
+```
+Run dev server
+```bash
+yarn dev
 ```
 
-And repeat
+The client will be running at **http://localhost:3333**
 
-```
-until finished
-```
+## 📝 License
 
-End with an example of getting some data out of the system or using it for a little demo.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Usage <a name = "usage"></a>
+---
 
-Add notes about how to use the system.
+Made with 💜 &nbsp;by Gustavo Henrique 👋 &nbsp;[See my linkedin](https://www.linkedin.com/in/gustavohribeiro/)
+
